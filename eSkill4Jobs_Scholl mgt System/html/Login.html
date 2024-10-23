@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        form {
+            background-color: aquamarine; /*Backgroud Color*/
+            max-width:400px;          /*Adjust the width*/
+            margin:auto;             /*Center the form*/
+            .form-group{
+                margin-bottom: 15px; /* Space between fields */
+            }
+            label {
+                display: block; /* Make labels take up full width */
+                margin-bottom: 2%; /* Space between label and input */
+            }
+            input, textarea {
+                width: 100%; /* Make inputs take full width */
+                padding: 8px; /* Add some padding */
+                box-sizing: border-box; /* Include padding in width */
+            }
+
+
+    </style>
+</head>
+<body>
+    <form>
+    <!-- Input Element -->
+    <h2><h2 style="color:blue;">LOG IN</h2>
+     <label style="color: blue;">Username :</label>
+     <input type="text" placeholder="Enter your username" required/>
+     <label style="color: blue;">Password :</label>
+     <input type="password" placeholder="Enter your password" required />
+     <label>Keep me signed in</label>
+     <input type="checkbox" name="Keep me signed in"/>
+     <button>Sign in</button>
+     
+
+    </form>
+    
+</body>
+</html>
